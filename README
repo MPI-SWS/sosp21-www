@@ -1,0 +1,7 @@
+
+Updating the website:
+
+1. Update the markdown, csv, and bibtex files
+2. Run ./generate.py
+3. Commit and push the changes to the server
+

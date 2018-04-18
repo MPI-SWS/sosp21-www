@@ -1,0 +1,52 @@
+{# vim: ts=2:sw=2:expandtab #}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Systems and Networking @ University of Waterloo">
+    <meta name="author" content="Ali Mashtizadeh">
+    <title>Systems and Networking Group{{ title }}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link href="jumbotron.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">SYN</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item{% if page == "home" %} active{% endif %}">
+            <a class="nav-link" href="/index.html>">Home</a>
+          </li>
+            <li class="nav-item{% if page == "people" %} active{% endif %}">
+            <a class="nav-link" href="/people.html">People</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main">
+      {% block jumbotron %}
+      {% endblock %}
+
+      {% block content %}
+      {% endblock %}
+    </main>
+
+    <footer class="container">
+      <p class="float-left">&copy; University of Waterloo 2018</p>
+      <div class="col-md-3 float-right"><a href="https://cs.uwaterloo.ca/">
+        <img src="uwcs.png" class="img-fluid">
+      </a></div>
+    </footer>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
