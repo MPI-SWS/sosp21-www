@@ -79,3 +79,15 @@ people_file.write(template.render(page = "people",
 # Publications Page
 #
 
+# Parse Input
+pubs = open("bibtex/all.html").read()
+
+# Parse Template
+template = env.get_template('publications.html')
+pub_file = open("publications.html", "w")
+pub_file.write(template.render(page = "pubs",
+                               title = "",
+                               indextext = Markup(pubs)))
+
+#
+

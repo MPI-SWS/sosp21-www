@@ -6,3 +6,12 @@ body {
 .people {
   height: 200px;
 }
+
+.pubyear {
+  margin: 1em;
+}
+
+.bibtexnumber {
+  width: 3em;
+  text-align: left;
+}
