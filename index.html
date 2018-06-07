@@ -1,84 +1,175 @@
 
 
-<!doctype html>
-<html lang="en">
+
+<!DOCTYPE html>
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Systems and Networking @ University of Waterloo">
-    <meta name="author" content="Ali Mashtizadeh">
-    <title>Systems and Networking Group</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-    <link href="jumbotron.css" rel="stylesheet">
+    <title>SOSP 2019 - Symposium on Operating Systems Principles</title>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="SOSP 2019" />
+
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <script src="js/jquery-1.11.1.min.js"></script> 
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>	
+    <script type="text/javascript">
+jQuery(document).ready(function($) {
+  $(".scroll").click(function(event){		
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+  });
+});
+    </script>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">SYN</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="container-fluid">
+      <div class="row">
+        <!--side-bar-->
+        <div class="col-sm-3 col-md-2 sidebar">
+            <!--logo-->
+  <div class="logo">
+    <a href="https://www.sigops.org/" target="_blank"><img src="images/sigops.jpg" alt="SIGOPS"/></a>
+    <div>In cooperation with</div>
+    <a href="https://www.usenix.org/" target="_blank"><img src="images/usenix.png" alt="USENIX"/></a>
+  </div>
+  <!//--logo-->
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-            <a class="nav-link" href="/index.html">Home</a>
-          </li>
-            <li class="nav-item">
-            <a class="nav-link" href="/people.html">People</a>
-          </li>
-            <li class="nav-item">
-            <a class="nav-link" href="/publications.html">Publications</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <main role="main">
-      
-      <div class="jumbotron">
-        <div class="container">
-          <h1 class="display-3">Systems and Networking</h1>
-          <h2>@ University of Waterloo</h2>
+  <!--sidebar menu-->
+  <div class="top-nav">
+    <div class="nav1">
+      <ul class="nav nav-sidebar">
+        <li><a id="homenav" href="index.html">Home</a></li>
+        <li>
+          <b>Conference Details</b>
+          <ul>
+            <li><a href="program.html">Program</a></li>
+            <li><a href="venue.html">Venue</a></li>
+            <li><a href="workshops.html">Workshops</a></li>
+            <li><a href="cfp.html">Call for Contributions</a></li>
+          </ul>
+        </li>
+        <li>
+          <b>Local Information</b>
+          <ul>
+            <li><a href="https://wp.nyu.edu/sosp2017tutorials/" target="_blank">Tutorial</a></li>
+            <li><a href="bof.html">Birds of Feather</a></li>
+            <li><a href="excursion.html">Excursion</a></li>
+            <li><a href="reg.html">Registration</a></li>
+            <li><a href="organizers.html">Organizers</a></li>
+            <li><a href="code-of-conduct.html">Code of Conduct</a></li>
+          </ul>
+        </li>
+        <li>
+          <b>Additional Information</b>
+          <ul>
+            <li><a href="scholarship.html">Scholarships</a></li>
+            <li><a href="sponsors.html">Sponsors</a></li>
+            <li><a href="http://www.sosp.org/">Prior SOSPs</a></li>
+          </ul>
+        </li>
+      </ul> 
+    </div>	
+  </div>
+  <!//--sidebar menu-->
+          <div class="clearfix"> </div>				
         </div>
-      </div>
+        <!--//side-bar-->
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <!--banner-->
+          <div class="banner">
+            <div class="jumbotron banner-text">
+              <h2>SOSP 2019</h2>
+              <p>
+              The 27th ACM Symposium on Operating Systems Principles<br>
+              October XXX, 2019, XXX, Canada
+              </p>
+            </div>
+          </div>
+          <!--//banner-->
+
+          <!--main-text-->
+          
+<div class="main-text">
+  <div class="welcome">
+    <h3>Welcome to the SOSP 2019 Website</h3>
+
+    <div class="col-md-12 welcome-middle">
+      <p>
+      The biennial ACM Symposium on Operating Systems Principles is the world's
+      premier forum for researchers, developers, programmers, and teachers of computer
+      systems technology. Academic and industrial participants present research and
+      experience papers that cover the full range of theory and practice of computer
+      systems software.
+      </p>
+    </div>
+    <div class="welcome-middle important-dates col-md-12">
+      <h5 class="left-h">Important Upcoming Dates</h5>
+      <table class="important-dates" align="left">
+        <tr>
+          <th>Event Info</th>
+          <th>Date</th>
+          <th>Link</th>
+        </tr>
+        <tr>
+          <td><a href="reg.html">Early Registration Deadline</a></td>
+          <td>September 11, 2017 (11:59 PM EDT)</td>
+          <td><a href="https://www.regonline.com/Register/Checkin.aspx?EventID=1742092">Registration Site</a></td>
+        </tr>
+        <tr>
+          <td><a href="call-for-posters.html">Posters Submission Deadline</a></td>
+          <td>September 20, 2017 (23:59:59 UTC)</td>
+          <td><a href="https://sosp17posters.hotcrp.com/">Submission Site</a></td>
+        </tr>
+        <tr>
+          <td><a href="venue.html">Hotel Reservations at Group Rate</a></td>
+          <td>September 28, 2017</td>
+          <!--<td><a href="XXX">Room Reservation</a></td>-->
+        </tr>
+        <tr>
+          <td><a href="reg.html">On-site Registration Start Date</a></td>
+          <td>October 27, 2017</td>
+          <td>Temporarily Closed</td>
+        </tr>
+        <tr>
+          <td><a href="reg.html">Late Registration is Open</a></td>
+          <td>-</td>
+          <!--<td><a href="http://www.regonline.com/sosp2017">Registration Site</a></td>-->
+        </tr>
+        <tr>
+          <td>Conference</td>
+          <td>October 28-31, 2017</td>
+          <td><a href="program.html">Program</a>,
+            <a href="venue.html">Venue</a> 
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="col-md-12 welcome-middle">
+      <h5 class="left-h">Problems</h5>
+      <p>
+      Any questions (include invoice, invitation letter), should be emailed to <a href="mailto:">sosp19@XXX</a> 
+      </p>
+    </div>
+    <div class="clearfix"> </div>
+  </div>
 
 
-      
-      <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-md-8">
-            <p>The focus of the Systems and Networking Group is the design, implementation, 
-analysis, and evaluation of computer systems and networks that knit together 
-disparate underlying components to present a cohesive operating environment for 
-task-specific applications.</p>
-<p>Our members study systems ranging from single-processor, standalone embedded 
-systems to large-scale highly-networked distributed systems.  Research activity 
-similarly covers a broad variety of topics: parallel hardware, systems 
-software, data-centre networking and data-centre systems, wireless networks, 
-energy systems, and wide-area networks.</p>
-<p>We use many approaches in our work, reflecting our varied expertise.  This 
-includes workload characterization, architectural design, algorithm design, 
-theoretical analysis, simulation, and the design, implementation and 
-experimental evaluation of prototype systems.</p>
-<p>Contact: <a href="mailto:cs-syn@uwaterloo.ca">cs-syn@uwaterloo.ca</a></p>
+          <div class="footer">
+            <!--
+              <p>&copy;SIGOPS 2017 &#183; Privacy Policy &#183; All trademarks and registered trademarks are the property of their respective owners.</p>
+            -->
           </div>
         </div>
-        <hr>
-      </div> <!-- /container -->
-
-    </main>
-
-    <footer class="container">
-      <p class="float-left">&copy; University of Waterloo 2018</p>
-      <div class="col-md-3 float-right"><a href="https://cs.uwaterloo.ca/">
-        <img src="uwcs.png" class="img-fluid">
-      </a></div>
-    </footer>
+        <div class="clearfix"> </div>
+      </div>
+    </div>
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"> </script>
   </body>
 </html>

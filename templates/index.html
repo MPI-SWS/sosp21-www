@@ -1,22 +1,70 @@
 {# vim: ts=2:sw=2:expandtab #}
+
 {% extends "base.html" %}
-{% block jumbotron %}
-      <div class="jumbotron">
-        <div class="container">
-          <h1 class="display-3">Systems and Networking</h1>
-          <h2>@ University of Waterloo</h2>
-        </div>
-      </div>
-{% endblock %}
 
 {% block content %}
-      <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-md-8">
-            {{ indextext }}
-          </div>
-        </div>
-        <hr>
-      </div> <!-- /container -->
+<div class="main-text">
+  <div class="welcome">
+    <h3>Welcome to the SOSP 2019 Website</h3>
+
+    <div class="col-md-12 welcome-middle">
+      <p>
+      The biennial ACM Symposium on Operating Systems Principles is the world's
+      premier forum for researchers, developers, programmers, and teachers of computer
+      systems technology. Academic and industrial participants present research and
+      experience papers that cover the full range of theory and practice of computer
+      systems software.
+      </p>
+    </div>
+    <div class="welcome-middle important-dates col-md-12">
+      <h5 class="left-h">Important Upcoming Dates</h5>
+      <table class="important-dates" align="left">
+        <tr>
+          <th>Event Info</th>
+          <th>Date</th>
+          <th>Link</th>
+        </tr>
+        <tr>
+          <td><a href="reg.html">Early Registration Deadline</a></td>
+          <td>September 11, 2017 (11:59 PM EDT)</td>
+          <td><a href="https://www.regonline.com/Register/Checkin.aspx?EventID=1742092">Registration Site</a></td>
+        </tr>
+        <tr>
+          <td><a href="call-for-posters.html">Posters Submission Deadline</a></td>
+          <td>September 20, 2017 (23:59:59 UTC)</td>
+          <td><a href="https://sosp17posters.hotcrp.com/">Submission Site</a></td>
+        </tr>
+        <tr>
+          <td><a href="venue.html">Hotel Reservations at Group Rate</a></td>
+          <td>September 28, 2017</td>
+          <!--<td><a href="XXX">Room Reservation</a></td>-->
+        </tr>
+        <tr>
+          <td><a href="reg.html">On-site Registration Start Date</a></td>
+          <td>October 27, 2017</td>
+          <td>Temporarily Closed</td>
+        </tr>
+        <tr>
+          <td><a href="reg.html">Late Registration is Open</a></td>
+          <td>-</td>
+          <!--<td><a href="http://www.regonline.com/sosp2017">Registration Site</a></td>-->
+        </tr>
+        <tr>
+          <td>Conference</td>
+          <td>October 28-31, 2017</td>
+          <td><a href="program.html">Program</a>,
+            <a href="venue.html">Venue</a> 
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="col-md-12 welcome-middle">
+      <h5 class="left-h">Problems</h5>
+      <p>
+      Any questions (include invoice, invitation letter), should be emailed to <a href="mailto:">sosp19@XXX</a> 
+      </p>
+    </div>
+    <div class="clearfix"> </div>
+  </div>
 {% endblock %}

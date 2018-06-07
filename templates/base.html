@@ -1,55 +1,65 @@
 {# vim: ts=2:sw=2:expandtab #}
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Systems and Networking @ University of Waterloo">
-    <meta name="author" content="Ali Mashtizadeh">
-    <title>Systems and Networking Group{{ title }}</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-    <link href="jumbotron.css" rel="stylesheet">
+    <title>SOSP 2019 - Symposium on Operating Systems Principles</title>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="SOSP 2019" />
+
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <script src="js/jquery-1.11.1.min.js"></script> 
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>	
+    <script type="text/javascript">
+jQuery(document).ready(function($) {
+  $(".scroll").click(function(event){		
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+  });
+});
+    </script>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">SYN</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="container-fluid">
+      <div class="row">
+        <!--side-bar-->
+        <div class="col-sm-3 col-md-2 sidebar">
+          {% include 'sidebar.html' %}
+          <div class="clearfix"> </div>				
+        </div>
+        <!--//side-bar-->
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item{% if page == "home" %} active{% endif %}">
-            <a class="nav-link" href="/index.html">Home</a>
-          </li>
-            <li class="nav-item{% if page == "people" %} active{% endif %}">
-            <a class="nav-link" href="/people.html">People</a>
-          </li>
-            <li class="nav-item{% if page == "pubs" %} active{% endif %}">
-            <a class="nav-link" href="/publications.html">Publications</a>
-          </li>
-        </ul>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <!--banner-->
+          <div class="banner">
+            <div class="jumbotron banner-text">
+              <h2>SOSP 2019</h2>
+              <p>
+              The 27th ACM Symposium on Operating Systems Principles<br>
+              October XXX, 2019, XXX, Canada
+              </p>
+            </div>
+          </div>
+          <!--//banner-->
+
+          <!--main-text-->
+          {% block content %}
+          {% endblock %}
+
+          <div class="footer">
+            <!--
+              <p>&copy;SIGOPS 2017 &#183; Privacy Policy &#183; All trademarks and registered trademarks are the property of their respective owners.</p>
+            -->
+          </div>
+        </div>
+        <div class="clearfix"> </div>
       </div>
-    </nav>
-
-    <main role="main">
-      {% block jumbotron %}
-      {% endblock %}
-
-      {% block content %}
-      {% endblock %}
-    </main>
-
-    <footer class="container">
-      <p class="float-left">&copy; University of Waterloo 2018</p>
-      <div class="col-md-3 float-right"><a href="https://cs.uwaterloo.ca/">
-        <img src="uwcs.png" class="img-fluid">
-      </a></div>
-    </footer>
+    </div>
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"> </script>
   </body>
 </html>
