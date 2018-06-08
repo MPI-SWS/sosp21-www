@@ -15,3 +15,8 @@ env = Environment(
 template = env.get_template('index.html')
 index_file = open("index.html", "w")
 index_file.write(template.render(page = "home", title = ""))
+
+# organizers
+template = env.get_template('organizers.html')
+index_file = open("organizers.html", "w")
+index_file.write(template.render(page = "home", title = ""))
