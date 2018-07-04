@@ -89,7 +89,7 @@ body a:hover{
   background: url(../images/banner.jpg) no-repeat;
   background-size: cover;
   background-position: bottom;
-  height: 263px;
+  height: 400px;
   /* min-height: 770px; */
   position:relative;
 }
@@ -260,10 +260,10 @@ span.menu-icon {
     margin: 0;
     padding: 0em;
     width: 70%;
-    height: 68%;
+    height: 50%;
     text-align:center;
     position: relative;
-    top: 16%;
+    top: 40%;
     left: 15%;
     /*
     position: absolute;
