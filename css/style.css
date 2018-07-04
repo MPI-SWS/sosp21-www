@@ -256,22 +256,20 @@ span.menu-icon {
     text-decoration: underline;
   }
   .jumbotron.banner-text {
-    background-color: rgba(153, 171, 213, 0.6) !important;
+    background-color: rgba(153, 171, 213, 0.4) !important;
     margin: 0;
     padding: 0em;
-    width: 70%;
-    height: 50%;
+    width: 50%;
+    height: 35%;
     text-align:center;
     position: relative;
-    top: 40%;
-    left: 15%;
-    /*
-    position: absolute;
-     */
+    top: 10%;
+    left: 25%;
 }
 .banner-text h2{
   padding-top: 0.2em;
   font-size: 4em;
+  margin-bottom: 0em;
   /*color: #FF4C00;*/
   color:#fff;
   font-family: 'Marvel', sans-serif;
@@ -406,7 +404,7 @@ margin:auto;
   }
   .welcome h4 {
     font-size: 14px;
-    color: #99abd5;
+    color: #000099;
     margin: 0 0 .5em;
     line-height: 1.6em;
     font-weight: 600;
