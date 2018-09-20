@@ -18,15 +18,20 @@ template = env.get_template('index.html')
 index_file = open("index.html", "w")
 index_file.write(template.render(page = "home", title = ""))
 
+# CFP
+template = env.get_template('cfp.html')
+index_file = open("cfp.html", "w")
+index_file.write(template.render(page = "cfp", title = ""))
+
 # Venue
 template = env.get_template('venue.html')
 index_file = open("venue.html", "w")
-index_file.write(template.render(page = "code-of-conduct", title = ""))
+index_file.write(template.render(page = "venue", title = ""))
 
 # Organizers
 template = env.get_template('organizers.html')
 index_file = open("organizers.html", "w")
-index_file.write(template.render(page = "home", title = ""))
+index_file.write(template.render(page = "organizers", title = ""))
 
 # Code of Conduct
 template = env.get_template('code.html')
