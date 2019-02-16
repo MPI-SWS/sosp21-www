@@ -33,27 +33,38 @@ template = env.get_template('venue.html')
 index_file = open("venue.html", "w")
 index_file.write(template.render(page = "venue", title = ""))
 
+pchtml = ""
+with open('pc.csv') as csv_file:
+    csv_reader = csv.reader(csv_file, delimiter=',')
+    line_count = 0
+    r = []
+    for row in csv_reader:
+        if (line_count != 0):
+            r.append(row)
+        line_count += 1
+    def getK(r):
+        return r[2]
+    rows = sorted(r, key=getK)
+    row = rows[0]
+    pchtml +=  '      <tr>\n'
+    pchtml += f'        <td class=organizers-office> Program Committee</td>\n'
+    pchtml += f'        <td class=organizers-bearer> {row[0]}, {row[4]}</td>\n' % row
+    pchtml +=  '      </tr>\n'
+    for row in sorted(r, key=getK)[1:]:
+        pchtml +=  '      <tr>\n'
+        pchtml += f'        <td class=organizers-bearer> &nbsp;</td>\n'
+        pchtml += f'        <td class=organizers-bearer> {row[0]}, {row[4]}</td>\n' % row
+        pchtml +=  '      </tr>\n'
+
 # Organizers
 template = env.get_template('organizers.html')
 index_file = open("organizers.html", "w")
-index_file.write(template.render(page = "organizers", title = ""))
+index_file.write(template.render(page = "organizers", title = "", pcorganizers = Markup(pchtml)))
 
 # Code of Conduct
 template = env.get_template('code.html')
 index_file = open("code.html", "w")
 index_file.write(template.render(page = "code-of-conduct", title = ""))
-
-#pchtml = ""
-#with open('pc.csv') as csv_file:
-#    csv_reader = csv.reader(csv_file, delimiter=',')
-#    line_count = 0
-#    for row in csv_reader:
-#        if line_count == 0:
-#            print(f'Column names are {", ".join(row)}')
-#            line_count += 1
-#        else:
-#            print(f'        <td class=organizers-bearer> {row[0]}, line_count 
-#            += 1
 
 # Sponsors
 template = env.get_template('sponsors.html')
