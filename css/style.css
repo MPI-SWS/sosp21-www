@@ -1427,6 +1427,7 @@ margin:auto;
 #facebook   { height: 72px; }
 #vmware     { height: 72px; }
 #netapp     { height: 100px; }
+#huawei     { height: 72px; }
 
 /* smartphone */
 @media(max-width:768px) {
@@ -1435,4 +1436,5 @@ margin:auto;
 #vmware     { height: 40px; }
 #facebook   { height: 40px; }
 #netapp     { height: 60px; }
+#huawei     { height: 40px; }
 }}
