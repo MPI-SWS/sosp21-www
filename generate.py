@@ -23,6 +23,11 @@ template = env.get_template('cfp.html')
 index_file = open("cfp.html", "w")
 index_file.write(template.render(page = "cfp", title = ""))
 
+# CFW
+template = env.get_template('cfw.html')
+index_file = open("cfw.html", "w")
+index_file.write(template.render(page = "cfw", title = ""))
+
 # CFS
 template = env.get_template('cfs.html')
 index_file = open("cfs.html", "w")

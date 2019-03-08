@@ -1,0 +1,56 @@
+{# vim: ts=2:sw=2:expandtab #}
+
+{% extends "base.html" %}
+
+{% block content %}
+<div class="main-text">
+  <div class="welcome">
+    <div class="col-md-12 welcome-middle">
+      <h3>Call for Workshops</h3>
+
+      <h5 class="left-h">Hosting a Workshop</h5>
+      <p>
+      SOSP 2019 will officially host workshops at the conference venue on  
+      Sunday, October 27th . The purpose of these workshops is to provide a forum 
+      for the exchange of ideas and preliminary results of topics related to SOSP 
+      in an interactive environment. We invite proposals for “open” workshops 
+      with the intent to draw upon the collective experience, interests, and 
+      opinions of all SOSP attendees.
+      </p>
+
+      <h5 class="left-h">Submission Information</h5>
+      <p>
+      Proposals should include the following information:
+      </p>
+      <ul>
+	<li>Workshop name and a 150 to 200-word abstract describing the workshop, 
+	  suitable for the conference web site.</li>
+	<li>Names and affiliations of main organizers and tentative composition 
+	  of the committees (as complete as possible).  Please note if 
+	  committee members have already tentatively agreed or not.</li>
+	<li>If applicable, a description of past versions of the workshop, 
+	  including dates, organizers, submission and acceptance counts, 
+	  attendance, and information about which conference the workshop was 
+	  co-located with.</li>
+	<li>Brief rationale for the workshop and for co-locating with SOSP.</li>
+	<li>A draft Call For Papers (CFP), as complete as possible.</li>
+	<li>The workshop deadlines (internal and external).</li>
+	<li>Workshop format, i.e., expected number of presented papers, invited 
+	  talks, panels, demonstrations, number of hours, etc.</li>
+	<li>Expected number of submissions and participants.</li>
+      </ul>
+    </div>
+
+    {% include "dates.html" %}
+
+    <div class="col-md-12">
+      <h5 class="left-h">Contact</h5>
+      <p>
+      Proposals, and any questions, should be emailed to the SOSP 2019 Workshop 
+      Chair, Bianca Schroeder (bianca@cs.toronto.edu).
+      </p>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+</div>
+{% endblock %}
