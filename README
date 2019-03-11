@@ -1,4 +1,10 @@
 
+Dependencies:
+ - Python 3.6+
+ - jinja2
+ - jinja2-highlight
+ - pygments
+
 Updating the website:
 
 1. Update the markdown, csv, and bibtex files

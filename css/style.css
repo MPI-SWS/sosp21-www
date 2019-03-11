@@ -1,3 +1,7 @@
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .nb { color: #008000 } /* Name.Builtin */
+
 .redStrike {
   color:red;
   text-decoration:line-through;

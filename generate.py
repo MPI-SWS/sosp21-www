@@ -10,8 +10,11 @@ from jinja2 import Environment, FileSystemLoader, Markup, select_autoescape
 
 env = Environment(
         loader = FileSystemLoader('templates'),
-        autoescape=select_autoescape(['html', 'xml'])
+        autoescape=select_autoescape(['html', 'xml']),
+        extensions=['jinja2_highlight.HighlightExtension']
         )
+
+env.extend(jinja2_highlight_cssclass = 'highlight')
 
 # Parse Template
 template = env.get_template('index.html')
