@@ -16,30 +16,21 @@ env = Environment(
 
 env.extend(jinja2_highlight_cssclass = 'highlight')
 
-# Parse Template
-template = env.get_template('index.html')
-index_file = open("index.html", "w")
-index_file.write(template.render(page = "home", title = ""))
+common_pages = [
+        'index',
+        'cfp',
+        'cfw',
+        'cfs',
+        'venue',
+        'code',
+        'sponsors'
+]
 
-# CFP
-template = env.get_template('cfp.html')
-index_file = open("cfp.html", "w")
-index_file.write(template.render(page = "cfp", title = ""))
-
-# CFW
-template = env.get_template('cfw.html')
-index_file = open("cfw.html", "w")
-index_file.write(template.render(page = "cfw", title = ""))
-
-# CFS
-template = env.get_template('cfs.html')
-index_file = open("cfs.html", "w")
-index_file.write(template.render(page = "cfs", title = ""))
-
-# Venue
-template = env.get_template('venue.html')
-index_file = open("venue.html", "w")
-index_file.write(template.render(page = "venue", title = ""))
+for p in common_pages:
+    template = env.get_template(p + ".html")
+    file = open(p + ".html", "w")
+    file.write(template.render(page = p, title = ""))
+    file.close()
 
 pchtml = ""
 with open('pc.csv') as csv_file:
@@ -66,16 +57,9 @@ with open('pc.csv') as csv_file:
 
 # Organizers
 template = env.get_template('organizers.html')
-index_file = open("organizers.html", "w")
-index_file.write(template.render(page = "organizers", title = "", pcorganizers = Markup(pchtml)))
-
-# Code of Conduct
-template = env.get_template('code.html')
-index_file = open("code.html", "w")
-index_file.write(template.render(page = "code-of-conduct", title = ""))
-
-# Sponsors
-template = env.get_template('sponsors.html')
-index_file = open("sponsors.html", "w")
-index_file.write(template.render(page = "sponsors", title = ""))
+file = open("organizers.html", "w")
+file.write(template.render(page = "organizers",
+                           title = "",
+                           pcorganizers = Markup(pchtml)))
+file.close()
 
