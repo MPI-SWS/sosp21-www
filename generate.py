@@ -23,7 +23,8 @@ common_pages = [
         'cfs',
         'venue',
         'code',
-        'sponsors'
+        'sponsors',
+        'scholarships'
 ]
 
 for p in common_pages:
