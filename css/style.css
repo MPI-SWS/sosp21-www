@@ -150,6 +150,10 @@ span.menu-icon {
   background-color: transparent;
 }
 
+.carousel {
+  max-width: 1022px;
+}
+
 @media (min-width: 769px) {
 
   .navbar {
