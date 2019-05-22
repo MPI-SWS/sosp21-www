@@ -23,6 +23,7 @@ common_pages = [
         'cfs',
         'code',
         'dei',
+        'cc',
         'sponsors',
         'scholarship',
         'venue',
