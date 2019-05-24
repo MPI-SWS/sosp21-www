@@ -21,13 +21,17 @@ common_pages = [
         'cfp',
         'cfw',
         'cfs',
-        'venue',
         'code',
+        'dei',
+        'cc',
         'sponsors',
-        'scholarship'
+        'scholarship',
+        'venue',
+        'visa'
 ]
 
 for p in common_pages:
+    print("Processing " + p)
     template = env.get_template(p + ".html")
     file = open(p + ".html", "w")
     file.write(template.render(page = p, title = ""))
