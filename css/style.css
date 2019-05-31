@@ -1437,6 +1437,7 @@ margin:auto;
 #vmware     { height: 72px; }
 #netapp     { height: 100px; }
 #huawei     { height: 72px; }
+#uwaterloo  { height: 100px; }
 
 /* smartphone */
 @media(max-width:768px) {
@@ -1446,4 +1447,5 @@ margin:auto;
 #facebook   { height: 40px; }
 #netapp     { height: 60px; }
 #huawei     { height: 40px; }
+#uwaterloo  { height: 60px; }
 }}
