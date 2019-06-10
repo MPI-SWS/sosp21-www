@@ -1,0 +1,41 @@
+{# vim: ts=2:sw=2:expandtab #}
+
+{% extends "base.html" %}
+
+{% block content %}
+<div class="main-text">
+  <div class="welcome">
+    <h3>Registration</h3>
+
+    <div class="col-md-12 welcome-middle">
+      <p>
+      All fees are in US dollars.
+      </p>
+    </div>
+
+    <div class="col-md-12">
+      <h5>Registration Links</h5>
+      <ul>
+        <li><a href="http://www.cvent.com/d/06qwyh">Registration Site</a></li>
+        <li><a href="https://gc.synxis.com/rez.aspx?Hotel=58995&Chain=6158&arrive=10/27/2019&depart=10/30/2019&adult=1&child=0&group=ASCM102719">Hotel Registration</a></li>
+      </ul>
+    </div>
+
+    {% set showWorkshops = True %}
+    {% set showGeneral = True %}
+    {% include "fees.html" %}
+
+    {% set showWorkshops = True %}
+    {% set showGeneral = True %}
+    {% include "dates.html" %}
+
+    <div class="col-md-12 welcome-middle">
+      <h5 class="left-h">Problems</h5>
+      <p>
+      Any questions about the conference can be emailed to
+      <a href="mailto:sosp2019@gmail.com">sosp2019@gmail.com</a> </p>
+    </div>
+    <div class="clearfix"> </div>
+  </div>
+</div>
+{% endblock %}

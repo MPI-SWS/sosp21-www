@@ -24,6 +24,7 @@ common_pages = [
         'code',
         'dei',
         'cc',
+        'reg',
         'sponsors',
         'scholarship',
         'venue',
