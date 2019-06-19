@@ -1432,7 +1432,7 @@ margin:auto;
 
 /* sponsors */
 #amazon     { height: 72px; }
-#akami      { height: 72px; }
+#akamai     { height: 72px; }
 #microsoft  { height: 72px; }
 #facebook   { height: 72px; }
 #twitter    { height: 72px; }
@@ -1444,7 +1444,7 @@ margin:auto;
 /* smartphone */
 @media(max-width:768px) {
 #amazon     { height: 40px; }
-#akami      { height: 40px; }
+#akamai     { height: 40px; }
 #microsoft  { height: 40px; }
 #vmware     { height: 40px; }
 #facebook   { height: 40px; }
