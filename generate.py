@@ -21,6 +21,7 @@ common_pages = [
         'cfp',
         'cfw',
         'cfs',
+        'cft',
         'code',
         'dei',
         'cc',
