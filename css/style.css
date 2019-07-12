@@ -110,6 +110,13 @@ span.menu-icon {
   display: none;
 }
 
+.footer-logo {
+  display: block;
+  margin: 0 auto;
+  width: 110px;
+  text-align: center;
+}
+
 .navbar {
   display: block;
 }
@@ -123,7 +130,7 @@ span.menu-icon {
 }
 
 #sosp19logo {
-  height: 150px;
+  height: 110px;
 }
 
 /*-- Sidebar--*/
@@ -156,7 +163,9 @@ span.menu-icon {
 }
 
 @media (min-width: 769px) {
-
+  .footer-logo {
+    display: none;
+  }
   .navbar {
     display: none;
   }
