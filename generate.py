@@ -29,7 +29,6 @@ common_pages = [
         'cc',
         'reg',
         'sponsors',
-        'scholarship',
         'venue',
         'visa',
         'workshops',
