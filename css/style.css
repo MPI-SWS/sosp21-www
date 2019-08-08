@@ -1439,6 +1439,13 @@ margin:auto;
   border-bottom-color: #006600;
 }
 
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 50%;*/
+}
+
 /* sponsors */
 #amazon     { height: 72px; }
 #alibaba    { height: 72px; }
