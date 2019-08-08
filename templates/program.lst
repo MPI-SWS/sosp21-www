@@ -1,0 +1,113 @@
+﻿A Generic Communication Scheduler for Distributed DNN Training Acceleration
+Yanghua Peng (The University of Hong Kong), Yibo Zhu (ByteDance Inc.), Yangrui Chen (The University of Hong Kong), Yixin Bao (The University of Hong Kong), Bairen Yi (ByteDance Inc.), Chang Lan (ByteDance Inc.), Chuan Wu (The University of Hong Kong), Chuanxiong Guo (ByteDance Inc.)
+
+An Analysis of Performance Evolution of Linux's Core Operations
+Xiang Ren (The University of Toronto), Kirk Rodrigues (The University of Toronto), Luyuan Chen (The University of Toronto), Camilo Vega (The University of Toronto), Michael Stumm (The University of Toronto), Ding Yuan (The University of Toronto)
+
+AutoMine: Harmonizing High-Level Abstraction and High Performance for Graph Mining
+Daniel Mawhirter (Colorado School of Mines), Bo Wu (Colorado School of Mines)
+
+CrashTuner: Detecting Crash Recovery Bugs in Cloud Systems via Meta-info Analysis
+Jie Lu (The Institute of Computing Technology of the Chinese Academy of Sciences), Chen Liu (The Institute of Computing Technology of the Chinese Academy of Sciences), Lian Li (The Institute of Computing Technology of the Chinese Academy of Sciences), Xiaobing Feng (The Institute of Computing Technology of the Chinese Academy of Sciences), Feng Tan (Alibaba Group), Jun Yang (Alibaba Group), Liang You (Alibaba Group)
+
+Developing Formally Verified Software Middleboxes with ФNF
+Arseniy Zaostrovnykh (EPFL), Rishabh Iyer (EPFL), Luis Pedrosa (EPFL), Solal Pirelli (EPFL), Matteo Rizzo (EPFL), Katerina Argyraki (EPFL), George Candea (EPFL)
+
+Efficient and Scalable Thread-Safety Violation Detection --- Finding thousands of concurrency bugs during testing
+Guangpu Li (University of Chicago), Shan Lu (University of Chicago), Madanlal Musuvathi (Microsoft Research), Suman Nath (Microsoft Research), Rohan Padhye (Berkeley)
+
+Fast and secure global payments with S-Pay
+Nicolas Barry (Stellar), Eliezer Gafni (UCLA), Graydon Hoare (Stellar), Jon Jove (Stellar), Marta Lokhava (Stellar), Giuliano Losa (Galois), Rafał Malinowski (Stellar), David Mazières (Stanford), Jed McCaleb (Stellar), Giuliano Losa (None), 
+
+File Systems Unfit as Distributed Storage Backends: Lessons from 10 Years of Ceph Evolution
+Abutalib Aghayev (Carnegie Mellon University), Sage Weil (Red Hat Inc.), Michael Kuchnik (Carnegie Mellon University), Mark Nelson (Red Hat Inc.), Gregory R. Ganger (Carnegie Mellon University), George Amvrosiadis (Carnegie Mellon University), Greg Ganger (Carnegie Mellon University)
+
+Finding Semantic Bugs in File Systems with an Extensible Fuzzing Framework
+Seulbae Kim (Georgia Institute of Technology), Meng Xu (Georgia Institute of Technology), Sanidhya Kashyap (Georgia Institute of Technology), Jungyeon Yoon (Georgia Institute of Technology), Wen Xu (Georgia Institute of Technology), Taesoo Kim (Georgia Institute of Technology)
+
+Generalized Pipeline Parallelism for DNN Training
+Deepak Narayanan (Stanford University), Aaron Harlap (Carnegie Mellon University), Amar Phanishayee (Microsoft Research), Vivek Seshadri (Microsoft Research), Nikhil Devanur (Microsoft Research), Gregory R. Ganger (CMU), Phillip B. Gibbons (Carnegie Mellon University), Matei Zaharia (Stanford University), Aaron Harlap (CMU)
+
+Generuk: Thin Computation over Big Native Data Using Speculative Program Transformation
+Cheng Cai (UCLA), Christian Navasca (UCLA), Khanh Nguyen (UCLA), Brian Demsky (UC Irvine), Shan Lu (University of Chicago), Miryung Kim (UCLA), Guoqing Harry Xu (UCLA)
+
+Honeycrisp: Large-scale Differentially Private Aggregation Without a Trusted Core
+Edo Roth (University of Pennsylvania), Daniel Noble (University of Pennsylvania), Brett Falk (University of Pennsylvania), Andreas Haeberlen (University of Pennsylvania)
+
+I4: Incremental Inference of Inductive Invariants for Verification of Distributed Protocols
+Haojun MA (University of Michigan), Aman Goel (University of Michigan), Jean-Baptiste Jeannin (University of Michigan), Manos Kapritsos (University of Michigan), Baris Kasikci (University of Michigan), Karem A. Sakallah (University of Michigan)
+
+Jete: Fast Distributed Graph Random Walk Engine
+Ke Yang (Tsinghua University), MingXing Zhang (Tsinghua University), Kang Chen (Tsinghua University), Xiaosong Ma (QCRI), Yang Bai (4Paradigm Co. Ltd.), Yong Jiang (Tsinghua University), Yongwei Wu (Tsinghua University)
+
+KVell: the Design and Implementation of a Fast Persistent Key-Value Store
+Baptiste Lepers (University of Sydney), Oana Balmau (University of Sydney), Karan Gupta (Nutanix Inc.), Willy Zwaenepoel (University of Sydney and EPFL)
+
+Lineage Stash: Fault Tolerance Off the Critical Path
+Stephanie Wang (UC Berkeley), John Liagouris (ETH Zurich), Robert Nishihara (UC Berkeley), Philipp Moritz (UC Berkeley), Ujval Misra (Dropbox), Alexey Tumanov (UC Berkeley), Ion Stoica (UC Berkeley), Robert Nishihara (UC Berkeley), Philipp Moritz (UC Berkeley)
+
+Niijima: Sound and Automated Computation Consolidation for Efficient Multilingual Data-Parallel Pipelines
+Guoqing Harry Xu (UCLA), Margus Veanes (Microsoft Research), Michael Barnett (Microsoft Research), Madan Musuvathi (Microsoft Research), Todd Mytkowicz (Microsoft Research), Ben Zorn (Microsoft Research), Huan He (Microsoft), Haibo Lin (Microsoft)
+
+Nexus: A GPU Cluster Engine for Accelerating Neural Networks Based Video Analysis
+Haichen Shen (University of Washington), Lequn Chen (University of Washington), Yuchen Jin (University of Washington), Liangyu Zhao (University of Washington), Bingyu Kong (Shanghai Jiao Tong University), Matthai Philipose (Microsoft Research), Arvind Krishnamurthy (University of Washington), Ravi Sundaram (Northeastern University)
+
+Notary: A Device for Secure Transaction Approval
+Anish Athalye (MIT CSAIL), Adam Belay (MIT CSAIL), Frans Kaashoek (MIT CSAIL), Robert Morris (MIT CSAIL), Nickolai Zeldovich (MIT CSAIL)
+
+Optimizing Data-Intensive Computations in Existing Libraries with Split Annotations
+Shoumik Palkar (Stanford University), Matei Zaharia (Stanford University)
+
+Optimizing Deep Learning Computation with Automated Generation of Graph Substitutions
+Zhihao Jia (Stanford University), Oded Padon (Stanford University), James Thomas (Stanford University), Todd Warszawski (Stanford University), Matei Zaharia (Stanford University), Alex Aiken (Stanford Univeristy), Oded Padon (Stanford University)
+
+Performance and Protection in the ZoFS User-space NVM File System
+Mingkai Dong (Shanghai Jiao Tong University), Heng Bu (Shanghai Jiao Tong University), Jifei Yi (Shanghai Jiao Tong University), Benchao Dong (Shanghai Jiao Tong University), Haibo Chen (Shanghai Jiao Tong University)
+
+RECIPE: Reusing Concurrent In-Memory Indexes for Persistent Memory
+Se Kwon Lee (University of Texas at Austin), Jayashree Mohan (University of Texas at Austin), Sanidhya Kashyap (Georgia Tech), Taesoo Kim (Georgia Tech), Vijay Chidambaram (University of Texas at Austin and VMware Research)
+
+Replication in the era of microservices
+Remzi Can Aksoy (University of Michigan), Manos Kapritsos (University of Michigan), 
+
+Risk-based planning for evolving data-center networks
+Omid Alipourfard (Yale University), Jiaqi Gao (Harvard University), Jeremie Koenig (Yale University), Chris Harshaw (Yale University), Amin Vahdat (Google), Minlan Yu (Harvard University), 
+
+Sage: A Differentially Private Machine Learning Platform based on Tensorflow-Extended
+Riley Spahn (Columbia University), Mathias Lécuyer (Columbia University), Kiran Vodrahalli (Columbia University), Roxana Geambasu (Columbia University), Daniel Hsu (Columbia University)
+
+Scalable and Practical Locking with Shuffling
+Sanidhya Kashyap (Georgia Tech), Irina Calciu (VMware Research Group), Xiaohe Cheng (Hong Kong University of Science and Technology), Changwoo Min (Virginia Tech), Taesoo Kim (Georgia Institute of Technology)
+
+Sequoia: scaling symbolic evaluation for automated verification of systems code
+Luke Nelson (University of Washington), James Bornholt (University of Washington), Ronghui Gu (Columbia University), Andrew Baumann (Microsoft Research), Emina Torlak (University of Washington), Xi Wang (University of Washington)
+
+ShortCut: Accelerating Mostly-Deterministic Code Regions
+Xianzheng Dou (University of Michigan), Peter Chen (University of Michigan), Jason Flinn (University of Michigan)
+
+Snap: a Microkernel-Inspired Approach to Host Networking
+Michael Marty (Google), Marc de Kruijf (Google), Christopher Alfeld (Google), William C. Evans (Google), Nick Kidd (Google), Xi Wang (Google), Paul Turner (Google), Kevin Springborn (Google), Lena Olson (Google), Nandita Dukkipati (Google), Roman Kononov (Google), Michael Dalton (Google), Emily Musick (Google), Jacob Adriaens (Google), Gautam Kumar (Google), Valas Valancius (Google), Erik Rubow (Google), Amin Vahdat (Google), 
+
+SplitFS: Reducing Software Overhead in File Systems for Persistent Memory
+Rohan Kadekodi (University of Texas at Austin), Se Kwon Lee (University of Texas at Austin), Sanidhya Kashyap (Georgia Tech), Taesoo Kim (Georgia Tech), Aasheesh Kolli (Penn State University and VMware Research), Vijay Chidambaram (Texas)
+
+Taiji: Managing Global User Traffic for Large-Scale Heterogenous Internet Services at the Edge
+Kaushik Veeraraghavan (Facebook), David Chou (Facebook), Sonia Margulis (Facebook), Justin Meza (Facebook), Yee Jiun Song (Facebook), Tianyin Xu (UIUC), 
+
+Taming Tail Latency in ML Inference via Learned Erasure-Coded Computation
+Jack Kosaian (Carnegie Mellon University), K. V. Rashmi (Carnegie Mellon University), Shivaram Venkataraman (University of Wisconsin-Madison)
+
+Teechain: A Secure Payment Network with Asynchronous Blockchain Access
+Joshua Lind (Imperial College London), Oded Naor (Technion), Ittay Eyal (Technion), Florian Kelbert (Imperial College London), Emin Gun Sirer (Cornell University), Peter Pietzuch (Imperial College London)
+
+The Prefix Inflection Theorem: A Principled Debugging Approach for Locating Root Cause
+Yongle Zhang (University of Toronto), Kirk Rodrigues (University of Toronto), Yu Luo (University of Toronto), Michael Stumm (University of Toronto), Ding Yuan (University of Toronto)
+
+Using Concurrent Relational Logic with Helper for Verifying the AtomFS File System
+Mo Zou (Shanghai Jiao Tong University), Haoran Ding (Shanghai Jiao Tong University), Dong Du (Shanghai Jiao Tong University), Ming Fu (Huawei Technologies Co. Ltd), Ronghui Gu (Columbia University), Haibo Chen (Shanghai Jiao Tong University)
+
+Verifying concurrent storage systems with Armada
+Tej Chajed (MIT CSAIL), Joseph Tassarotti (MIT CSAIL), Frans Kaashoek (MIT CSAIL), Nickolai Zeldovich (MIT CSAIL)
+
+Yodel: Strong Metadata Security for Real-Time Voice Calls
+David Lazar (MIT CSAIL), Yossi Gilad (MIT CSAIL), Nickolai Zeldovich (MIT CSAIL)

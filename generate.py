@@ -29,6 +29,7 @@ common_pages = [
         'final',
         'index',
         'mentoring',
+        'program',
         'reg',
         'sponsors',
         'venue',
