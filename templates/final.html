@@ -1,0 +1,61 @@
+{# vim: ts=2:sw=2:expandtab #}
+
+{% extends "base.html" %}
+
+{% block content %}
+<div class="main-text">
+  <div class="welcome">
+    <h3>Camera Ready Instructions</h3>
+
+    <div class="col-md-12 welcome-middle">
+      <h5 class="left-h">Formatting</h5>
+      <p>
+      Papers should be submitted via the URL sent to the authors.
+      </p>
+
+      <p>
+      Submissions may have at most 12 pages of technical content, including all 
+      text, figures, tables, appendices, etc.  Bibliographic references are not 
+      included in the 12-page limit. Use A4 or US letter paper size, with all 
+      text and figures fitting inside a 178 x 229 mm (7 x 9 in) block centered 
+      on the page, using two columns separated by 8 mm (0.33) of whitespace.  
+      Use 10-point font (typeface Times Roman, Linux Libertine, etc.) on 
+      12-point (single-spaced) leading.  Graphs and figures should be readable 
+      when printed in grayscale, without magnification. All pages should be 
+      numbered and references within the paper should be hyperlinked.
+      </p>
+
+      <p>
+      Most of these rules are automatically applied when using the
+      <a href="https://www.acm.org/publications/authors/submissions">
+	  official SIGPLAN Latex or MS Word templates from the ACM</a>.
+      <p>
+
+      <p>
+      For Latex, you should remember to fill in the following copyright 
+      information.  Replace the DOI with the DOI number you have been assigned.
+{% highlight 'latex' %}
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+\setcopyright{acmcopyright}
+\copyrightyear{2019}
+\acmYear{2019}
+\acmDOI{10.1145/1122445.1122456}
+{% endhighlight %}
+      </p>
+    </div>
+
+    <div class="col-md-12 welcome-middle">
+      <h5 class="left-h">Questions</h5>
+      <p>
+      Any questions about paper submissions can be emailed to
+      <a href="mailto:sosp2019@gmail.com">sosp2019@gmail.com</a>.
+      </p>
+    </div>
+    <div class="clearfix"> </div>
+  </div>
+</div>
+{% endblock %}

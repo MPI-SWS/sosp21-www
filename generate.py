@@ -17,7 +17,6 @@ env = Environment(
 env.extend(jinja2_highlight_cssclass = 'highlight')
 
 common_pages = [
-        'index',
         'cfp',
         'cfw',
         'cfs',
@@ -25,14 +24,16 @@ common_pages = [
         'cfsrc',
         'cft',
         'code',
-        'dei',
         'cc',
+        'dei',
+        'final',
+        'index',
+        'mentoring',
         'reg',
         'sponsors',
         'venue',
         'visa',
         'workshops',
-        'mentoring',
 ]
 
 for p in common_pages:
