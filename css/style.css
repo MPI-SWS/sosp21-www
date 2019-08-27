@@ -1458,6 +1458,8 @@ margin:auto;
 #nsf        { height: 100px; }
 #huawei     { height: 72px; }
 #uwaterloo  { height: 100px; }
+#sigops     { height: 72px; }
+#vectori    { height: 72px; }
 
 /* smartphone */
 @media(max-width:768px) {
@@ -1472,4 +1474,6 @@ margin:auto;
 #nsf        { height: 60px; }
 #huawei     { height: 40px; }
 #uwaterloo  { height: 60px; }
+#sigops     { height: 60px; }
+#vectori    { height: 60px; }
 }}
