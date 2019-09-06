@@ -152,66 +152,193 @@
 
           <!--main-text-->
           
-
 <div class="main-text">
   <div class="welcome">
-    <h3>Child Care</h3>
-<div class="col-md-12 welcome-middle">
+    <div class="col-md-12 welcome-middle">
+      <h3>SOSP 2019: Tutorials</h3>
+
 <p>
-ACM has contracted with KiddieCorp to provide on-site child care at the SOSP 
-2019 conference. This company has over 30 years of experience providing child 
-care at professional and scientific conferences.
+Note: All tutorials will be held on Sunday, October 27, 2019.
+</p>
+
+<hr/>
+
+<h5>
+Heterogeneous-ISA CPUs Platforms Programming with Popcorn Linux OS and Compiler 
+Popcorn Linux OS and Compiler Framework
+</h5>
+
+<b>Logistics</b>
+<ul>
+<li>Date: Sunday October 27, 2019
+<li>Time: 9:00 am - 12:30 pm
+<li>Building: Pavilion Meeting Space
+<li>Room: TBA
+</ul>
+<br/>
+
+<b>Tutorial Presenters</b>
+<ul>
+    <li><a href="abarbala@stevens.edu">Antonio Barbalace, Stevens Institute of Technology and University of Edinburgh</a>
+    <li><a href="polivier@vt.edu">Pierre Olivier, Virginia Tech</a>
+    <li><a href="binoy@vt.edu">Binoy Ravindran, Virginia Tech</a>
+</ul>
+<br/>
+
+<b>Abstract</b>
+<p>
+Computer systems are increasingly heterogeneous. Beside classic
+heterogeneity, CPUs of different instruction set architectures
+(ISAs) are more and more being integrated on the same platform,
+including SoC, single machine, data-center, and at the edge.
 </p>
 
 <p>
-Please click the logo below (or
-<a href="https://www.jotform.com/KiddieCorp/acmsospkids">this child care 
-  registration link</a>) for detailed information about the child care program, 
-and what to provide for your child/children.  If you prefer, the same 
-information is also available in a <a href="kc-2019.pdf">printable PDF 
-  form</a>.
+A programmer facing such platforms is challenged by the fact that
+each ISA-different processor runs its own software stack (i.e., OS,
+compiler, libraries). Although being part of the same system, each
+ISAdifferent processor ends up acting like an independent system.
+A fundamental limitation of current software is that applications
+started on one software stack cannot be migrated to another due to
+the ISA difference, limiting resource management, which negatively
+affects system-level properties such as performance and energy
+consumption.
 </p>
 
 <p>
-<a href="https://www.jotform.com/KiddieCorp/acmsospkids">
-  <img src="logos/kc.png" class="centerimg"/>
-</a>
+The Popcorn Linux family of projects attacks this problem by enabling
+users to exploit platforms of heterogeneous-ISA CPUs. Popcorn Linux
+provides the familiar abstraction of a shared memory multiprocessor,
+enabling thread-level, process-level, and VM-level migration across
+ISA-different processors. This is achieved by a new compiler
+toolchain, runtime, OS, and VMM, which taken together, enable
+applications to execute on heterogeneous-ISA hardware with minimal
+modifications.
 </p>
 
 <p>
-Child care spaces are available on a first-come-first-serve basis. We have 
-currently budgeted for 20 children, but can grow or shrink the number of spots 
-based on demand. If you are planning to use the child care service, or have any 
-questions about it, please send an email to Carey Williamson (General Co-Chair) 
-on or before September 1. The deadline to register for child care is September 
-30, 2019.
+This tutorial introduces Popcorn Linux OS and Compiler Framework,
+shows how to compile and run an application, and discusses execution
+migration in a heterogeneous-ISA environment
+</p>
+
+<hr/>
+
+<h5>
+Automated verification of systems software with Serval
+</h5>
+
+<b>Logistics</b>
+<ul>
+    <li>Date: Sunday October 27, 2019
+    <li>Time: 1:30 pm - 5:30 pm
+    <li>Building: Pavilion Meeting Space
+    <li>Room: TBA
+</ul>
+<br/>
+
+<b>Tutorial Presenters</b>
+<ul>
+    <li><a href="lukenels@cs.washington.edu">Luke Nelson, University of Washington</a>
+    <li><a href="emina@cs.washington.edu">Emina Torlak, University of Washington</a>
+    <li><a href="xi@cs.washington.edu">Xi Wang, University of Washington</a>
+<br>
+</ul>
+<br/>
+
+<b>Abstract</b>
+<p>
+Formal verification has become an increasingly hot topic in systems
+research over recent years due to its promise to guarantee the
+absence of classes of bugs. However, formal verification poses a
+steep learning curve for systems researchers and practitioners and
+often requires a background in formal methods, which hinders a wider
+use of verification in our community.
 </p>
 
 <p>
-A brief FAQ with further information is provided below.
-<br/>
-<b>Is there a fee for the program?</b>
-<br/>
-No. The program is free of charge to conference attendees, thanks to the 
-generous support of ACM SIGOPS and the University of Waterloo.
-<br/>
-<b>How old does my child need to be?</b>
-<br/>
-Care will be provided for children between the ages of 6 months and 12 years.
-<br/>
-<b>When is child care available?</b>
-<br/>
-Sunday, October 27 to Wednesday, October 30 (inclusive) 8:00am to 5:00pm each 
-day.
-<br/>
-<b>Where will the child care facility be located?</b>
-<br/>
-Upstairs in the Lawren Harris Room at the Deerhurst Resort. It will be easy to 
-visit your child/children between conference sessions.
+This tutorial will introduce Serval (SOSP 2019), a framework for
+automated verification of lowlevel systems code that leverages
+recent advances to lower the proof burden and minimize developer
+effort. For example, using Servalwe have found more than 20 bugs
+in systems such as security monitors and the Linux kernel's BPF
+subsystem, all confirmed and fixed. This tutorial will give a brief
+overview of systems verification in general, a hands-on guide of
+how to formally specify and verify a system using Serval, and an
+in-depth discussion of formal verification techniques that power
+Serval.
 </p>
+
+<hr/>
+
+<h5>
+Derecho: Blindingly Fast RDMA Replication for Cloud and Edge Services
+</h5>
+
+<b>Logistics</b>
+<ul>
+    <li>Date: Sunday October 27, 2019
+    <li>Time: 1:30 pm - 5:30 pm
+    <li>Building: Pavilion Meeting Space
+    <li>Room: TBA
+</ul>
+<br/>
+
+<b>Tutorial Presenters</b>
+<ul>
+    <li><a href="ken@cs.cornell.edu">Ken Birman, Cornell University</a>
+    <li><a href="milano@cs.cornell.edu">Matthew Milano, Cornell University</a>
+    <li><a href="edward@cs.cornell.edu">Edward Tremel, Cornell University</a>
+</ul>
+<br/>
+
+<b>Abstract</b>
+<p>
+Cloud computing services often replicate data. On the IoT Edge,
+consistency may also be required, particularly for data that will
+be used to coordinate distributed actions. This tutorial centers
+on Derecho, a library to assist with such tasks. Derecho is far
+faster than prior solutions, including the weakly-consistent
+mechanisms that dominate today's cloud computing infrastructures.
+</p>
+
+<p>
+Derecho's asynchronous design is key to its performance: the system
+achieves lock-free data streaming for critical paths (queries and
+updates occur concurrently but independently), and data movement
+is out-of-band from the control plane. The biggest payoff is with
+RDMA, but Derecho outperforms even on TCP.
+</p>
+
+<p>
+On 100Gbps RDMA, Derecho can send millions of events per second in
+each subgroup or shard. Throughput peaks at almost 16GB/s (125Gbps).
+</p>
+
+<p>
+The insight is that on modern hardware (and even with today's fast
+data-center TCP), data-intensive protocols that can be expressed
+using non-blocking data-flow components gain substantial speedups.
+But the sender-side is just part of the story: one needs to couple
+it with receiver-side batching to minimize costly round-trip delays.
+</p>
+
+<p>
+The tutorial will be structured into two parts. In the first half,
+based primarily on our TOCS paper [1], situates Derecho relative
+to prior work, explains how it obtains such high speeds, and reviews
+experiments that clarify why it outperforms prior solutions. We'll
+also learn about features aimed at Edge IoT applications that work
+with real-time sensor data yet still need strong consistency. The
+second part will teach attendees to use Derecho: we will walk through
+the process of downloading the library, building services that use
+it, running them locally, and installing them on a cloud.
+</p>
+      </div>
     </div>
     <div class="clearfix"> </div>
   </div>
+</div>
 
 
           <div class="footer">

@@ -32,6 +32,7 @@ common_pages = [
         'program',
         'reg',
         'sponsors',
+        'tutorials',
         'venue',
         'visa',
         'workshops',
