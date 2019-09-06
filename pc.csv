@@ -2,7 +2,7 @@ name,first,last,email,affiliation,Heavy? (1 or 0),roles,tags
 David Andersen,David,Andersen,dga@cs.cmu.edu,CMU,1,pc,heavy
 Sujata Banerjee,Sujata,Banerjee,sujatab@vmware.com ,VMware,1,pc,heavy
 Haryadi Gunawi,Haryadi,Gunawi,haryadi@cs.uchicago.edu ,Chicago,1,pc,heavy
-Michael Kaminsky,Michael,Kaminsky,michael.e.kaminsky@intel.com,Intel/CMU,1,pc,heavy
+Michael Kaminsky,Michael,Kaminsky,michael.e.kaminsky@intel.com,BrdgAI/CMU,1,pc,heavy
 Taesoo Kim,Taesoo,Kim,taesoo@gatech.edu,Georgia Tech,1,pc,heavy
 James Mickens,James,Mickens,mickens@g.harvard.edu ,Harvard,1,pc,heavy
 Robert Morris,Robert,Morris,rtm@csail.mit.edu ,MIT,1,pc,heavy
