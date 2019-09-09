@@ -31,6 +31,7 @@ common_pages = [
         'mentoring',
         'program',
         'reg',
+        'sched',
         'sponsors',
         'tutorials',
         'venue',
