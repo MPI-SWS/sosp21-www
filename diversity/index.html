@@ -1,0 +1,405 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SOSP 2019 - Symposium on Operating Systems Principles</title>
+    <link href="../css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="all">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="SOSP 2019" />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <!--side-bar-->
+        <div class="col-sm-3 col-md-2 sidebar">
+            <!--logo-->
+  <div class="logo">
+      <a href="https://www.sigops.org/sosp/sosp19/" target="_blank">
+	<img src="../images/logo.png" alt="SOSP19"/>
+      </a>
+    <div></div>
+    <a href="https://www.sigops.org/" target="_blank"><img src="../images/sigops.jpg" alt="SIGOPS"/></a>
+    <div>In cooperation with</div>
+    <a href="https://www.usenix.org/" target="_blank"><img src="../images/usenix.png" alt="USENIX"/></a>
+  </div>
+  <!--logo-->
+
+  <!--sidebar menu-->
+  <div class="top-nav">
+    <div class="nav1">
+      <ul class="nav nav-sidebar">
+        <li><a id="homenav" href="../index.html">Home</a></li>
+        <li>
+          <b>Conference Details</b>
+          <ul>
+	    <li><a href="../program.html">Program</a></li>
+	    <li><a href="../sched.html">Workshop and Tutorial Program</a></li>
+	    <li><a href="../reg.html">Registration</a></li>
+	    <li><a href="../venue.html">Venue</a></li>
+	    <li><a href="../sponsors.html">Sponsors</a></li>
+	    <li><a href="../workshops.html">Workshops</a></li>
+	    <li><a href="../tutorials.html">Tutorials</a></li>
+	    <li><a href="../organizers.html">Organizers</a></li>
+          </ul>
+        </li>
+        <!--
+	<li>
+          <b>Local Information</b>
+          <ul>
+	    <li><a href="https://wp.nyu.edu/sosp2017tutorials/" 
+	    target="_blank">Tutorial</a></li>
+            <li><a href="bof.html">Birds of Feather</a></li>
+            <li><a href="excursion.html">Excursion</a></li>
+	    <li><a href="reg.html">Registration</a></li>
+	  </ul>
+	</li>-->
+	<li>
+	<b>Calls for Participation</b>
+	  <ul>
+	    <li><a href="../cfp.html">Call for Papers</a></li>
+	    <!--<li><a href="cfw.html">Call for Workshops</a></li>-->
+	    <li><a href="../cft.html">Call for Tutorials</a></li>
+	    <li><a href="../cfsrc.html">Student Research Competition</a></li>
+	    <li><a href="../cfss.html">Call for Scholarships</a></li>
+	    <li><a href="../cfs.html">Call for Sponsors</a></li>
+	    <li><a href="../mentoring.html">Mentoring</a></li>
+	  </ul>
+	</li>
+	<li>
+          <b>Additional Information</b>
+          <ul>
+	    <li><a href="../visa.html">Visa Information</a></li>
+	    <li><a href="../cc.html">Child Care</a></li>
+	    <li><a href="../code.html">Code of Conduct</a></li>
+	    <li><a href="../dei.html">Diversity Plan</a></li>
+	    <li><a href="http://www.sosp.org/">Prior SOSPs</a></li>
+          </ul>
+        </li>
+      </ul> 
+    </div>	
+  </div>
+  <!--sidebar menu-->
+          <div class="clearfix"> </div>				
+        </div>
+        <!--//side-bar-->
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <!--banner-->
+          <div class="banner">
+            <div class="jumbotron banner-text">
+              <h2>SOSP 2019</h2>
+              <p>
+              The 27th ACM Symposium on Operating Systems Principles<br>
+              Deerhurst Resort, Huntsville, Ontario, Canada<br>
+              October 27-30, 2019
+              </p>
+            </div>
+          </div>
+	  <nav class="navbar navbar-default" role="navigation"> 
+  <div class="navbar-header"> 
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#sosp17-navbar-collapse"> 
+      <span class="icon-bar"></span> 
+      <span class="icon-bar"></span> 
+      <span class="icon-bar"></span> 
+    </button> 
+  </div>
+  <div class="collapse navbar-collapse" id="sosp17-navbar-collapse"> 
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="../index.html">Home</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conference Details<b class="caret"></b> </a> 
+        <ul class="dropdown-menu">
+	  <li><a href="../program.html">Program</a></li>
+	  <li><a href="../sched.html">Workshop and Tutorial Program</a></li>
+	  <li><a href="../reg.html">Registration</a></li>
+	  <li><a href="../venue.html">Venue</a></li>
+	  <li><a href="../sponsors.html">Sponsors</a></li>
+	  <li><a href="../organizers.html">Organizers</a></li>
+	  <li><a href="../workshops.html">Workshops</a></li>
+	  <li><a href="../tutorials.html">Tutorials</a></li>
+	</ul>
+      </li>
+      <li class="dropdown">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Calls for 
+		Participation<b class="caret"></b> </a>
+	<ul class="dropdown-menu">
+	  <li><a href="../cfp.html">Call for Papers</a></li>
+	  <!--<li><a href="cfw.html">Call for Workshops</a></li>-->
+	  <li><a href="../cft.html">Call for Tutorials</a></li>
+	  <li><a href="../cfsrc.html">Student Research Competition</a></li>
+	  <li><a href="../cfss.html">Call for Scholarships</a></li>
+	  <li><a href="../cfs.html">Call for Sponsors</a></li>
+	  <li><a href="../mentoring.html">Mentoring</a></li>
+	</ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Additional Information<b class="caret"></b> </a> 
+        <ul class="dropdown-menu">
+	  <li><a href="../visa.html">Visa Information</a></li>
+	  <li><a href="../cc.html">Child Care</a></li>
+	  <li><a href="../code.html">Code of Conduct</a></li>
+	  <li><a href="../dei.html">Diversity Plan</a></li>
+	  <li><a href="http://www.sosp.org/">Prior SOSPs</a></li>
+	</ul>
+      </li>
+    </ul> 
+  </div> 
+</nav>
+	  <!--//banner-->
+
+          <!--main-text-->
+          
+<div class="main-text">
+  <div class="welcome">
+    <h1>Diversity Workshop</h1>
+<p><font size="2.5">
+The Diversity Workshop provides a forum for underrepresented students at the
+graduate and advanced undergraduate levels who have an interest in computer
+systems research. The workshop program will include technical talks, panel
+sessions, and interactive events offered and organized by leading researchers in
+academia and industry, covering topics about system research and general career
+development tips. The overall goal of the workshop is to strengthen the pipeline
+of underrepresented systems students, providing them with advice and networking
+opportunities that they might not otherwise receive.
+</font></p>
+<h4>Workshop Program</h4>
+<p><font size="2.5"></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>9:00</strong> &nbsp;&nbsp;&nbsp;</td>
+<td align="left">Yiying Zhang (Purdue), <em>TBD</em></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td><strong>9:30</strong></td>
+<td align="left">Lidong Zhou (Microsoft Research Asia), <em>Diversity in the workplace</em></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td><strong>10:00</strong></td>
+<td align="left">Sujata Banerjee (VMWare), <em>TBD</em></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td><strong>10:30</strong></td>
+<td align="left"><em>Break and Networking</em></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td><strong>11:00</strong></td>
+<td align="left">Rebecca Isaacs (Twitter), <em>How to read a paper</em></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td><strong>11:30</strong></td>
+<td align="left">John Wilkes (Google), <em>How to make elevator speech</em></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td><strong>12:00</strong></td>
+<td align="left"><em>Breakout session: Practice making elevator speaches!</em></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td><strong>12:30</strong></td>
+<td align="left">Conference Lunch and Networking</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td><strong>14:00</strong></td>
+<td align="left">Yao Yue (Twitter), <em>Building High-Performance Cache for Fun and Profit</em></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td><strong>14:30</strong></td>
+<td align="left">Sandhya Dwarkadas (URochester), <em>Presentation advice</em></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td><strong>15:00</strong></td>
+<td align="left">Liuba Shrira (Brandeis), <em>Multiparty transactions in blockchain stores</em></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td><strong>15:30</strong></td>
+<td align="left"><em>Break and Networking</em></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td><strong>16:00</strong></td>
+<td align="left"><strong>Recent graduates session</strong></td>
+</tr>
+<tr>
+<td></td>
+<td align="left">Ana Klimovic (Google and ETH Zurich), <em>Interviewing for academia</em></td>
+</tr>
+<tr>
+<td></td>
+<td align="left">Natacha Crooks (Cornell), <em>Student/advisor relationships</em></td>
+</tr>
+<tr>
+<td></td>
+<td align="left">Irene Zhang (Microsoft Research), <em>Choosing a research topic</em></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td><strong>17:00</strong></td>
+<td align="left"><strong>Recent graduates panel</strong></td>
+</tr>
+<tr>
+<td></td>
+<td align="left"><em>Moderator:</em> Ana Klimovic (Google and ETH Zurich)</td>
+</tr>
+<tr>
+<td></td>
+<td align="left"><em><strong>Participants:</strong></em></td>
+</tr>
+<tr>
+<td></td>
+<td align="left">Amy Tai (VMWare)</td>
+</tr>
+<tr>
+<td></td>
+<td align="left">Irene Zhang (Microsoft Research)</td>
+</tr>
+<tr>
+<td></td>
+<td align="left">Nandita Vijaykumar ()</td>
+</tr>
+<tr>
+<td></td>
+<td align="left">Natacha Crooks (Cornell)</td>
+</tr>
+<tr>
+<td></td>
+<td align="left">Sebastian Angel (UPenn)</td>
+</tr>
+<tr>
+<td></td>
+<td align="left">Sangeetha Abdu Jyothi (UC Urvine)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td><strong>18:00</strong></td>
+<td align="left">Conference dinner and networking</td>
+</tr>
+</tbody>
+</table>
+<p></font></p>
+  </div>
+</div>
+
+
+          <div class="footer">
+            <!--
+              <p>&copy;SIGOPS 2017 &#183; Privacy Policy &#183; All trademarks and registered trademarks are the property of their respective owners.</p>
+            -->
+          </div>
+        </div>
+        <div class="footer-logo">
+          <a href="https://www.sigops.org/sosp/sosp19/" target="_blank">
+            <img src="../images/logo.png" id="sosp19logo" alt="SOSP19"/>
+          </a>
+          <div></div>
+          <a href="https://www.sigops.org/" target="_blank">
+            <img src="../images/sigops.jpg" alt="SIGOPS"/>
+          </a>
+          <div>In cooperation with</div>
+          <a href="https://www.usenix.org/" target="_blank">
+            <img src="../images/usenix.png" alt="USENIX"/>
+          </a>
+        </div>
+        <div class="clearfix"> </div>
+      </div>
+    </div>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script> addEventListener("load", function() { setTimeout(hideURLbar, 0); 
+    }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <script src="../js/jquery-2.2.2.min.js"></script>
+    <script src="../js/bootstrap.js"> </script>
+    <script src="../js/move-top.js"></script>
+    <script src="../js/easing.js"></script>
+    <script>
+jQuery(document).ready(function($) {
+  $(".scroll").click(function(event){		
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+  });
+});
+    </script>
+  </body>
+</html>
