@@ -1448,7 +1448,7 @@ margin:auto;
 
 /* sponsors */
 #amazon     { height: 72px; }
-#alibaba    { height: 72px; }
+#alibaba    { height: 100px; }
 #akamai     { height: 72px; }
 #microsoft  { height: 72px; }
 #bytedance  { height: 60px; }
@@ -1465,7 +1465,7 @@ margin:auto;
 /* smartphone */
 @media(max-width:768px) {
 #amazon     { height: 40px; }
-#alibaba    { height: 40px; }
+#alibaba    { height: 60px; }
 #akamai     { height: 40px; }
 #microsoft  { height: 40px; }
 #bytedance  { height: 36px; }
