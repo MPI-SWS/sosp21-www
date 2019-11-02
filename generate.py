@@ -17,6 +17,7 @@ env = Environment(
 env.extend(jinja2_highlight_cssclass = 'highlight')
 
 common_pages = [
+        'awards',
         'cfp',
         'cfw',
         'cfs',

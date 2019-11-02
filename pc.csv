@@ -1,54 +1,54 @@
-name,first,last,email,affiliation,Heavy? (1 or 0),roles,tags
-David Andersen,David,Andersen,dga@cs.cmu.edu,CMU,1,pc,heavy
-Sujata Banerjee,Sujata,Banerjee,sujatab@vmware.com ,VMware,1,pc,heavy
-Haryadi Gunawi,Haryadi,Gunawi,haryadi@cs.uchicago.edu ,Chicago,1,pc,heavy
-Michael Kaminsky,Michael,Kaminsky,michael.e.kaminsky@intel.com,BrdgAI/CMU,1,pc,heavy
-Taesoo Kim,Taesoo,Kim,taesoo@gatech.edu,Georgia Tech,1,pc,heavy
-James Mickens,James,Mickens,mickens@g.harvard.edu ,Harvard,1,pc,heavy
-Robert Morris,Robert,Morris,rtm@csail.mit.edu ,MIT,1,pc,heavy
-Don Porter,Don,Porter,porter@cs.unc.edu ,UNC,1,pc,heavy
-Tom Ristenpart,Tom,Ristenpart,ristenpart@cornell.edu ,Cornell,1,pc,heavy
-Justine Sherry,Justine,Sherry,sherry@cs.cmu.edu,CMU,1,pc,heavy
-Muthian Sivathanu,Muthian,Sivathanu,msivathanu@gmail.com ,"Microsoft, India",1,pc,heavy
-Lorenzo Alvisi,Lorenzo,Alvisi,lorenzo.alvisi@gmail.com ,Cornell,1,pc,heavy
-Haibo Chen,Haibo,Chen,haibochen@sjtu.edu.cn,"SJTU, China",1,pc,heavy
-Sasha Federova,Sasha,Federova,sasha@ece.ubc.ca ,UBC,1,pc,heavy
-Gernot Heiser,Gernot,Heiser,gernot@unsw.edu.au,"UNSW, Australia",1,pc,heavy
-Rebecca Isaacs,Rebecca,Isaacs,risaacs@acm.org,Twitter,1,pc,heavy
-Brad Karp,Brad,Karp,bkarp@cs.ucl.ac.uk,University College London,1,pc,heavy
-Eddie Kohler,Eddie,Kohler,kohler@seas.harvard.edu,Harvard,1,pc,heavy
-KyoungSoo Park,KyoungSoo,Park,kyoungsoo@kaist.ac.kr,"KAIST, Korea",1,pc,heavy
-Raluca Popa,Raluca,Popa,raluca@eecs.berkeley.edu,Berkeley,1,pc,heavy
-Emmett Witchel,Emmett,Witchel,witchel@cs.utexas.edu,Texas,1,pc,heavy
-Lidong Zhou,Lidong,Zhou,lidongz@microsoft.com,Microsoft Research Asia,1,pc,heavy
-Junfeng Yang,Junfeng,Yang,junfeng@cs.columbia.edu,Columbia,1,pc,heavy
-Ion Stoica,Ion,Stoica,istoica@cs.berkeley.edu,UC Berkeley,1,pc,heavy
-Peter Chen,Peter,Chen,pmchen@umich.edu,Michigan,1,pc,heavy
-Atul Adya,Atul,Adya,a4adya@gmail.com,Google,1,pc,heavy
-Nitin Agrawal,Nitin,Agrawal,nitina.a@gmail.com,ThoughtSpot,0,pc,
-Samer Al-Kiswany,Samer,Al-Kiswany,alkiswany@uwaterloo.ca ,Waterloo,0,pc,
-Vijay Chidambaram,Vijay,Chidambaram,vijay@cs.utexas.edu,Texas,0,pc,
-Carlos Maltzahn,Carlos,Maltzahn,carlosm@ucsc.edu,UCSC,0,pc,
-Chris Rossbach,Chris,Rossbach,rossbach@cs.utexas.edu,Texas,0,pc,
-Ryan Stutsman,Ryan,Stutsman,stutsman@cs.utah.edu,Utah,0,pc,
-Shivaram Venkataraman,Shivaram,Venkataraman,shivaram@cs.wisc.edu ,Wisconsin,0,pc,
-Irene Zhang,Irene,Zhang,irene.zhang@microsoft.com,Microsoft,0,pc,
-Yiying Zhang,Yiying,Zhang,yiying@purdue.edu ,Purdue,0,pc,
-Leonid Ryzhyk,Leonid,Ryzhyk,leonid@ryzhyk.net,VMware,0,pc,
-Edouard Bugnion,Edouard,Bugnion,edouard.bugnion@epfl.ch,EPFL,0,pc,
-Angela Demke Brown,Angela,Demke Brown,demke@cs.toronto.edu,Toronto,0,pc,
-Jinyang Li,Jinyang,Li,jinyang@cs.nyu.edu ,NYU,0,pc,
-Ryan Huang,Ryan,Huang,huang@cs.jhu.edu,John Hopkins University,0,pc,
-Gilles Muller,Gilles,Muller,gilles.muller@lip6.fr,"INRIA, France",0,pc,
-Sam Noh,Sam,Noh,samhnoh@gmail.com,"UNIST, Korea",0,pc,
-Deian Stefan,Deian,Stefan,deian@eng.ucsd.edu,UCSD,0,pc,
-Tianyin Xu,Tianyin,Xu,tyxu@illinois.edu,UIUC,0,pc,
-Yu Chen,Yu,Chen,yuchen@mail.tsinghua.edu.cn,"Tsinghua, China",0,pc,
-Kai Shen,Kai,Shen,kshen@cs.rochester.edu ,Google,0,pc,
-Sanjeev Kumar,Sanjeev,Kumar,skumarbhope@gmail.com,Uber,0,pc,
-Dan Ports,Dan,Ports,drkp@cs.washington.edu,Microsoft Research,0,pc,
-Adam Chlipala,Adam,Chlipala,adamc@csail.mit.edu,MIT,0,pc,
-Baris Kasikci,Baris,Kasikci,barisk@umich.edu,Michigan,0,pc,
-Joey Gonzalez,Joey,Gonzalez,jegonzal@berkeley.edu,UC Berkeley,0,pc,
-Keith Smith,Keith,Smith,keith.smith@netapp.com,NetApp,0,pc,
-Mark Silberstein,Mark,Silberstein,silbmarks@gmail.com,Technion,0,pc
+name,first,last,email,affiliation,roles
+David Andersen,David,Andersen,dga@cs.cmu.edu,CMU,pc
+Sujata Banerjee,Sujata,Banerjee,sujatab@vmware.com ,VMware,pc
+Haryadi Gunawi,Haryadi,Gunawi,haryadi@cs.uchicago.edu ,Chicago,pc
+Michael Kaminsky,Michael,Kaminsky,michael.e.kaminsky@intel.com,BrdgAI/CMU,pc
+Taesoo Kim,Taesoo,Kim,taesoo@gatech.edu,Georgia Tech,pc
+James Mickens,James,Mickens,mickens@g.harvard.edu ,Harvard,pc
+Robert Morris,Robert,Morris,rtm@csail.mit.edu ,MIT,pc
+Don Porter,Don,Porter,porter@cs.unc.edu ,UNC,pc
+Tom Ristenpart,Tom,Ristenpart,ristenpart@cornell.edu ,Cornell,pc
+Justine Sherry,Justine,Sherry,sherry@cs.cmu.edu,CMU,pc
+Muthian Sivathanu,Muthian,Sivathanu,msivathanu@gmail.com ,"Microsoft, India",pc
+Lorenzo Alvisi,Lorenzo,Alvisi,lorenzo.alvisi@gmail.com ,Cornell,pc
+Haibo Chen,Haibo,Chen,haibochen@sjtu.edu.cn,"SJTU, China",pc
+Sasha Federova,Sasha,Federova,sasha@ece.ubc.ca ,UBC,pc
+Gernot Heiser,Gernot,Heiser,gernot@unsw.edu.au,"UNSW, Australia",pc
+Rebecca Isaacs,Rebecca,Isaacs,risaacs@acm.org,Twitter,pc
+Brad Karp,Brad,Karp,bkarp@cs.ucl.ac.uk,University College London,pc
+Eddie Kohler,Eddie,Kohler,kohler@seas.harvard.edu,Harvard,pc
+KyoungSoo Park,KyoungSoo,Park,kyoungsoo@kaist.ac.kr,"KAIST, Korea",pc
+Raluca Popa,Raluca,Popa,raluca@eecs.berkeley.edu,Berkeley,pc
+Emmett Witchel,Emmett,Witchel,witchel@cs.utexas.edu,Texas,pc
+Lidong Zhou,Lidong,Zhou,lidongz@microsoft.com,Microsoft Research Asia,pc
+Junfeng Yang,Junfeng,Yang,junfeng@cs.columbia.edu,Columbia,pc
+Ion Stoica,Ion,Stoica,istoica@cs.berkeley.edu,UC Berkeley,pc
+Peter Chen,Peter,Chen,pmchen@umich.edu,Michigan,pc
+Atul Adya,Atul,Adya,a4adya@gmail.com,Google,pc
+Nitin Agrawal,Nitin,Agrawal,nitina.a@gmail.com,ThoughtSpot,pc
+Samer Al-Kiswany,Samer,Al-Kiswany,alkiswany@uwaterloo.ca ,Waterloo,pc
+Vijay Chidambaram,Vijay,Chidambaram,vijay@cs.utexas.edu,Texas,pc
+Carlos Maltzahn,Carlos,Maltzahn,carlosm@ucsc.edu,UCSC,pc
+Chris Rossbach,Chris,Rossbach,rossbach@cs.utexas.edu,Texas,pc
+Ryan Stutsman,Ryan,Stutsman,stutsman@cs.utah.edu,Utah,pc
+Shivaram Venkataraman,Shivaram,Venkataraman,shivaram@cs.wisc.edu ,Wisconsin,pc
+Irene Zhang,Irene,Zhang,irene.zhang@microsoft.com,Microsoft,pc
+Yiying Zhang,Yiying,Zhang,yiying@purdue.edu ,Purdue,pc
+Leonid Ryzhyk,Leonid,Ryzhyk,leonid@ryzhyk.net,VMware,pc
+Edouard Bugnion,Edouard,Bugnion,edouard.bugnion@epfl.ch,EPFL,pc
+Angela Demke Brown,Angela,Demke Brown,demke@cs.toronto.edu,Toronto,pc
+Jinyang Li,Jinyang,Li,jinyang@cs.nyu.edu ,NYU,pc
+Ryan Huang,Ryan,Huang,huang@cs.jhu.edu,John Hopkins University,pc
+Gilles Muller,Gilles,Muller,gilles.muller@lip6.fr,"INRIA, France",pc
+Sam Noh,Sam,Noh,samhnoh@gmail.com,"UNIST, Korea",pc
+Deian Stefan,Deian,Stefan,deian@eng.ucsd.edu,UCSD,pc
+Tianyin Xu,Tianyin,Xu,tyxu@illinois.edu,UIUC,pc
+Yu Chen,Yu,Chen,yuchen@mail.tsinghua.edu.cn,"Tsinghua, China",pc
+Kai Shen,Kai,Shen,kshen@cs.rochester.edu ,Google,pc
+Sanjeev Kumar,Sanjeev,Kumar,skumarbhope@gmail.com,Uber,pc
+Dan Ports,Dan,Ports,drkp@cs.washington.edu,Microsoft Research,pc
+Adam Chlipala,Adam,Chlipala,adamc@csail.mit.edu,MIT,pc
+Baris Kasikci,Baris,Kasikci,barisk@umich.edu,Michigan,pc
+Joey Gonzalez,Joey,Gonzalez,jegonzal@berkeley.edu,UC Berkeley,pc
+Keith Smith,Keith,Smith,keith.smith@netapp.com,NetApp,pc
+Mark Silberstein,Mark,Silberstein,silbmarks@gmail.com,Technion,pc
