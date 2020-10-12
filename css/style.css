@@ -92,9 +92,9 @@ body a:hover{
   /*background: url(../images/banner.jpg) no-repeat 0px -10px;*/
   background: url(../images/banner.jpg) no-repeat;
   background-size: cover;
-  background-position: bottom;
-  height: 400px;
-  /* min-height: 770px; */
+  background-position: center 0;
+  /* height: 400px; */
+  min-height: 500px;
   position:relative;
 }
 
